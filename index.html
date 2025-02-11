@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>glowtone.paint</title>
+  <link rel="stylesheet" href="./css/stylesheet.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Limelight&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Notable&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="topBar">
+      <a href="index.html">
+        <img class="mainLogo" src="./img/logo/main_logo.png" alt="black color main logo">
+      </a>
+      <form action="/search" method="GET">
+        <img class="searchIcon" src="./img/icons/search.svg" alt="search icon">
+        <input type="text" name="q" placeholder="Search GlowTone..." aria-label="Search">
+      </form>
+      <div class="topBar_rightIcons">
+        <a href="#">
+          <img class="cartIcon" src="./img/icons/cart.svg" alt="cart icon">
+        </a>
+        <a href="#">
+          <img class="menuIcon" src="./img/icons/menu.svg" alt="hamburger menu">
+        </a>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li>
+          <a href="#">Shop</a>
+          <ul class="dropdown">
+            <li><a href="#">Interior Paints</a></li>
+            <li><a href="#">Exterior Paints</a></li>
+            <li><a href="#">Cabinet & Door Paint</a></li>
+            <li><a href="#">Primer</a></li>
+            <li><a href="#">Samples & Swatches</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Resources</a>
+          <ul class="dropdown">
+            <li><a href="#">Color Guide</a></li>
+            <li><a href="#">Paint Calculator</a></li>
+            <li><a href="#">Painting Tips</a></li>
+            <li><a href="#">FAQs</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Gallery & Reviews</a>
+          <ul class="dropdown">
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Customer Reviews</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">About Us</a>
+          <ul class="dropdown">
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Contact & Support</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="mainContent_home">
+    <div class="main">
+      <div><img src="./img/photos/wall13.jpg" alt=""></div>
+      <div><img src="./img/photos/2.jpg" alt=""></div>
+    </div>
+    <div class="main">
+      <div><img src="./img/photos/wall8.jpg" alt=""></div>
+      <div><img src="./img/photos/7.jpg" alt=""></div>
+    </div>
+    <div class="subscribe">
+      <h1>Stay connected!</h1>
+      <p>Subscribe with your email to get the latest news and updates.</p>
+      <form action="/submit-email" method="post">
+        <input type="email" id="email" name="email" placeholder="Email Address" required>
+        <button class="subscribe-button" type="submit">Sign Up</button>
+      </form>
+    </div>
+    <div class="main">
+      <div><img src="./img/photos/houseYellow.jpg" alt=""></div>
+      <div><img src="./img/photos/livingroom5.jpg" alt=""></div>
+    </div>
+    <div class="main">
+      <div><img src="./img/photos/wall7.jpg" alt=""></div>
+      <div><img src="./img/photos/houseRed.jpg" alt=""></div>
+    </div>
+  </div>
+
+  <footer>
+    <a href="index.html">
+      <img class="footerLogo" src="./img/logo/second_logo.png" alt="white color logo">
+    </a>
+    <ul>
+      <li><a href="#">Terms of Service</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+    <ul>
+      <li><a href="#"><img src="./img/icons/instagram.svg" alt="instagram icon"></a></li>
+      <li><a href="#"><img src="./img/icons/youtube.svg" alt="youtube icon"></a></li>
+      <li><a href="#"><img src="./img/icons/x.svg" alt="x icon"></a></li>
+    </ul>
+  </footer>
+</body>
+
+</html>
