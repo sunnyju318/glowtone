@@ -1,0 +1,22 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: min-content min-content auto min-content;
+}
+
+header {
+  grid-row: 1/2;
+
+}
+
+nav {
+  grid-row: 2/3;
+}
+
+.mainContent {
+  grid-row: 3/4;
+}
+
+footer {
+  grid-row: 4/5;
+}

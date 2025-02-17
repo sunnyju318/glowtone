@@ -1,0 +1,114 @@
+@import url('../pages/home.css');
+@import url('../pages/interiorPaints.css');
+@import url('../pages/primer.css');
+
+@import url('./reset.css');
+@import url('./typography.css');
+@import url('./layout.css');
+@import url('../components/buttons.css');
+@import url('../components/navbar.css');
+
+
+html {
+  font-size: 2vmin;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  min-width: 320px;
+}
+
+/* header */
+
+header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+
+.topBar {
+  padding: 3vmin 15vmin;
+  background-color: #F0EAD6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4vmin;
+}
+
+.mainLogo {
+  width: 25vmin;
+  height: auto;
+}
+
+.searchIcon {
+  width: 2.5vmin;
+  height: auto;
+}
+
+.topBar_rightIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4vmin;
+}
+
+.cartIcon {
+  width: 3vmin;
+  height: auto;
+}
+
+.menuIcon {
+  width: 3vmin;
+  height: auto;
+}
+
+.topBar form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+
+.topBar form input[type="text"] {
+  width: 55vmin;
+  height: 4vmin;
+  border-radius: 5vmin;
+  border: 1vmin solid transparent;
+  padding: 0 1vmin;
+  background-color: #343434;
+  color: #F9F6EE;
+}
+
+
+/* footer */
+
+footer {
+  background-color: #343434;
+  padding: 4vmin 10vmin;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4vmin;
+}
+
+.footerLogo {
+  width: 25vmin;
+  height: auto;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3vmin;
+}
+
+footer ul li a {
+  color: #ffffff;
+}
+
+footer ul li img {
+  width: 5vmin;
+}

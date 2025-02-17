@@ -1,0 +1,52 @@
+body {
+  font-family: "Lato", sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(2.5rem, 5.5vmin, 3.5rem); 
+  font-weight: 700;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(2rem, 4.5vmin, 2.8rem); 
+  font-weight: 400;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(1.8rem, 3.5vmin, 2.2rem); 
+  font-weight: 400;
+}
+
+p, span {
+  font-family: "Lato", sans-serif;
+}
+
+.b1 {
+  font-size: clamp(1rem, 2.5vmin, 1.5rem); 
+  font-weight: 600;
+}
+
+.b2 {
+  font-size: clamp(1rem, 2vmin, 1.5rem); 
+  font-weight: 400;
+}
+
+.b3 {
+  font-size: clamp(0.9rem, 1.8vmin, 1.2rem); 
+  font-weight: 400;
+}
+
+.b4 {
+  font-size: clamp(0.8rem, 1.6vmin, 1rem); 
+  font-weight: 400;
+}
+
+.emphasis-text {
+  font-family: "Limelight", sans-serif;
+  font-size: clamp(1.5rem, 5vmin, 3rem);
+}

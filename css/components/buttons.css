@@ -1,0 +1,18 @@
+.button {
+  display: inline-block;
+  font-size: clamp(0.5rem, 2vmin, 2.5rem); /* 반응형 폰트 */
+  padding: 0 2vmin;
+  border-radius: 5vmin;
+  text-align: center;
+  cursor: pointer;
+  background-color: #708090;
+  color: #F9F6EE;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border: none;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+.button:hover{
+  background-color: #36454f;
+}

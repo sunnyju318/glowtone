@@ -1,0 +1,38 @@
+.primer_b1text{
+  margin-bottom: 1vmin;
+}
+
+.primerpage_section2{
+  padding: 5vmin 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.primerpage_section2_img {
+  width: 50vw;
+  height: 100%;
+}
+
+.primerpage_section2_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.primerpage_section2_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.primerpage_section2_text p {
+  width: 50%;
+  text-align: center;
+}
+
+.primerpage_section2_text ul{
+  list-style: disc;
+  width: 50%;
+}
