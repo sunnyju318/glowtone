@@ -1,5 +1,5 @@
-import { loadHeaderFooter } from "./glowtone/js/modules/loadHeaderFooter.js";
-import { initDropdownHover } from "./glowtone/js/modules/dropdown.js";
+import { loadHeaderFooter } from "./glowtone/modules/loadHeaderFooter.js";
+import { initDropdownHover } from "./glowtone/modules/dropdown.js";
 
 document.addEventListener("DOMContentLoaded", function () {
   loadHeaderFooter();
