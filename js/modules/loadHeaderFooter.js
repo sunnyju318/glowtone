@@ -1,5 +1,5 @@
 
-import { initDropdownHover } from "./dropdown.js"; 
+import { initDropdownHover } from "dropdown.js"; 
 
 export function loadHeaderFooter() {
   fetch("../partials/header.html") 
